@@ -1,1 +1,40 @@
-
+*{
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+}
+body{
+  background-color: hsl(218, 23%, 16%);
+}
+main{
+  background-color: hsl(217, 19%, 24%);
+  margin: 200px auto;
+  padding: 50px;
+  width: 600px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+h1{
+  color: hsl(150, 100%, 66%);
+  font-size: 18px;
+}
+p{
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  text-align: center;
+}
+div{
+  background-color: hsl(150, 100%, 66%);
+  padding: 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: -25px;
+}
+.dice{
+  cursor: pointer;
+}
